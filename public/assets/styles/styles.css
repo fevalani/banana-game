@@ -1,0 +1,27 @@
+body {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100vw;
+  height: 100vh;
+}
+.canvas {
+  background-color: khaki;
+  width: 375px;
+  height: 800px;
+}
+.top {
+  height: 50px;
+  width: 375px;
+
+  font-size: 30px;
+
+  display: flex;
+  justify-content: space-between;
+
+  color: #fff;
+  background-color: red;
+}
